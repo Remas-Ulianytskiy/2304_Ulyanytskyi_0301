@@ -19,14 +19,15 @@ int main()
         sequence.push_front(preceding_element);
     }
 
-    cout << "\n\ndeque size: " << sequence.size() << endl;
+    cout << "deque size: " << sequence.size() << endl << endl;
     cout << "Deque elements:";
     for (int i = 0; i < sequence.size(); ++i)
     {
         if (i % 10 == 0)
             cout << endl;
         cout << sequence[i] << ' ';
-    }    
+    }
+    cout << endl;
 
     return 0;
 }
