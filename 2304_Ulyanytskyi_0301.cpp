@@ -26,7 +26,7 @@ int main()
             cout << endl;
         cout << sequence[i] << ' ';
     }
-    cout << endl << "deque size: " << sequence.size() << endl;
+    cout << "\n\ndeque size: " << sequence.size() << endl;
 
     return 0;
 }
