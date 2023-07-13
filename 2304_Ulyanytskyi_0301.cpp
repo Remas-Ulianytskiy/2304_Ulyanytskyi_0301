@@ -12,7 +12,7 @@ int main()
     while (sequence.size() < DEQUE_MAX_SIZE)
     {
         int size = sequence.size();
-        int64_t preceding_element = sequence[2] - sequence[1] + sequence[0] + 1;
+        int64_t preceding_element = sequence[2] - sequence[1] - sequence[0] + 1;
         int64_t next_element = sequence[size-3] + sequence[size-2] + sequence[size-1] - 1;
 
         sequence.push_back(next_element);
