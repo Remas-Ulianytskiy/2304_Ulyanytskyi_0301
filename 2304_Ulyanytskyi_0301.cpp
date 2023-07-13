@@ -7,9 +7,7 @@ int main()
 {
     const unsigned DEQUE_MAX_SIZE = 48;
     const deque<int64_t> SEQUENCE = { -13, 0, 10, -4, 6, 11, 12, 28, 50, 89, 166, 304 };
-    deque<int64_t> sequence;
-
-    sequence = SEQUENCE;    
+    deque<int64_t> sequence = SEQUENCE;
 
     while (sequence.size() < DEQUE_MAX_SIZE)
     {
